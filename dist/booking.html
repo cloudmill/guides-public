@@ -265,8 +265,8 @@
 											<div class="booking-page__item">
 												<div class="form__item" data-aos="fade-up"><input class="form__input" placeholder="Name" name="name" required="required" /></div>
 												<div class="form__item" data-aos="fade-up"><input class="form__input" placeholder="Surname" name="surname" required="required" /></div>
-												<div class="form__item" data-aos="fade-up"><input class="form__input" type="email" placeholder="E-mail" name="email" required="required" /></div>
-												<div class="form__item" data-aos="fade-up"><input class="form__input" type="email" placeholder="Reply e-mail" name="rep-email" required="required" /></div>
+												<div class="form__item" data-aos="fade-up"><input class="form__input" type="email" placeholder="E-mail" name="email" required="required" id="email" data-parsley-equalto="#email-again" /></div>
+												<div class="form__item" data-aos="fade-up"><input class="form__input" type="email" placeholder="Reply e-mail" name="email" required="required" id="email-again" data-parsley-equalto="#email-again" /></div>
 											</div>
 											<div class="booking-page__item">
 												<div class="form__item" data-aos="fade-up"><input class="form__input" type="phone" placeholder="International phone number including country code and city code" name="phone" required="required" data-mask="phone" /></div>
@@ -276,7 +276,7 @@
 										</div>
 										<div class="booking-page__inner">
 											<h4 class="booking-page__title" data-aos="fade-up">Tour comment</h4>
-											<div class="booking-page__item" data-aos="fade-up"><input class="form__input" placeholder="Special requests" name="requests" required="required" /></div>
+											<div class="booking-page__item" data-aos="fade-up"><input class="form__input" placeholder="Special requests" name="requests"></div>
 											<div class="form__wrapper">
 												<div class="booking-page__top">
 													<div class="booking-page__item" data-aos="fade-up">
